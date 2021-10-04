@@ -1,0 +1,41 @@
+{{!-- Página principal - homepage --}}
+
+<div id="sessao">
+
+
+  <div class="card-cabecalho">
+    <h3> Exemplo de microserviços </h3>
+  </div>
+
+  {{#if index}}
+  <div class="card-customizado">
+    <div class="card-header-customizado">
+      <h5 class="card-title-customizado">Você está no index da página.</h5>
+        <a href="/dias-de-vida"> <button type="button" class="btn btn-primary">Dias de vida</button> </a>
+        <a href="/final-da-faculdade"> <button type="button" class="btn btn-primary">Final faculdade</button></a>
+        
+    </div>
+  </div>
+
+  {{else}}
+
+    {{#if diasVida}}
+      <div class="card-customizado">
+        <div class="card-header-customizado">
+          <h5 class="card-title-customizado"><i>O Vinicius nasceu em 02/12/1999, portanto ele tem<span class="format-dias">{{dias}} dias</span> de vida.</h5>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if diasFacul}}
+      <div class="card-customizado">
+        <div class="card-header-customizado">
+          <h2 class="card-title-customizado"><i>Faltam <span class="format-dias">{{dias}} dias</span> para o final do curso de ciências da computação</h2>
+        </div>
+      </div>
+    {{/if}}
+
+  {{/if}}
+
+
+</div>

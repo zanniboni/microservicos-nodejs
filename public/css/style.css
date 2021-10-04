@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Transformar body em responsivo */
+#sessao {
+  width: 50%;
+  margin: 5vh auto;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.format-dias {
+  margin: 5px;
+  padding: 4px;
+  text-decoration: underline;
+
+}
+
+.format-dias:hover {
+  color: #fff;
+  background-color: #e84393;
+  font-size: 50px;
+}
+
+.centralizar {
+  height: 900px;
+  width: 900px;
+  align-items: center;
+}
+
+
+.card-cabecalho {
+  width: 100%;
+  color: #dcdde1;
+  background: #2f3640;
+  padding-bottom: 1%;
+}
+
+.card-cabecalho h3 {
+  padding-top: 2%;
+  font-family: 'Poppins';
+}
+
+
+.card-foto {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+  overflow: hidden;
+
+}
+
+.card-foto-display {
+  display: inline-block;
+  width: 90%;
+  height: 90%;
+  margin-top: 20px;
+  transition: 0.3s;
+  border-radius: 5px;
+  z-index: 10000;
+}
+
+.card-foto-display img {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card-foto h3 {}
+
+.card-foto h3 img {
+  height: 30%;
+  width: 30%;
+}
+
+
+.card-customizado {
+  width: 100%;
+  color: #dcdde1;
+  background: #2f3640;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.card-header-customizado {
+
+}
+
+.card-title-customizado {
+
+}
